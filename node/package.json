@@ -1,0 +1,16 @@
+{
+  "name": "CY_TEST",
+  "version": "1.0.0",
+  "description": "123",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --record --key dc23c99b-f3d5-4440-b4e7-9ee3653d7c7d --reporter cypress-testrail-reporter",
+    "runx": "cypress run --record --key dc23c99b-f3d5-4440-b4e7-9ee3653d7c7d --project $(System.DefaultWorkingDirectory)/_dlmcewen_AT-POC/AT POC/Client",
+    "version": "cypress cache clear"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.0"
+  }
+}
